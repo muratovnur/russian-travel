@@ -1,0 +1,24 @@
+.cover__text-container {
+  /* margin: 195px 232px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__text-container {
+    /* margin: 245px 312px; */
+  }
+}
+@media screen and (max-width: 1024px) {
+  
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 425px) {
+  .cover__text-container {
+    margin: 0 16px;
+  }
+}

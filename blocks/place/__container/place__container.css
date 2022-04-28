@@ -1,0 +1,30 @@
+.place__container {
+  display: flex;
+}
+
+.place__container:first-child {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  
+}
+@media screen and (max-width: 1024px) {
+  
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 425px) {
+  .place__container {
+    flex-direction: column;
+  }
+
+  .place__container:first-child {
+    margin-bottom: 0;
+  }
+
+  .place__container:nth-child(2) {
+    margin-top: 32px;
+  }
+}

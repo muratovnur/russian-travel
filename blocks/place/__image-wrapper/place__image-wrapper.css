@@ -1,0 +1,31 @@
+.place__image-wrapper {
+  box-sizing: border-box;
+  margin-right: 32px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image-wrapper {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image-wrapper {
+    min-width: 340px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image-wrapper {
+    min-width: 0;
+    width: calc((100% - 28px)/2 - 6px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image-wrapper {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
