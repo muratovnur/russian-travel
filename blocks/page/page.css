@@ -10,12 +10,12 @@
   font-family: 'Inter';
 }
 
-/* Основной код для разрешения 1024px */
 @media screen and (min-width: 1280px) {
   .page {
     min-width: 1280px;
   }  
 }
+
 @media screen and (max-width: 1024px) {
   .page {
     min-width: 425px;
@@ -27,21 +27,3 @@
     min-width: 0;
   }
 }
-
-
-/*
-
-@media screen and (min-width: 1280px) {
-  
-}
-@media screen and (max-width: 1024px) {
-  
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 425px) {
-
-}
-
-*/
