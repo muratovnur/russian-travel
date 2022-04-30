@@ -31,7 +31,7 @@
 @media screen and (min-width: 1280px) {
   .cover {
     min-width: 1184px;
-    max-width: calc(100% - 96px);  
+    max-width: calc(100% - 96px);
     height: calc((100vw - 96px)/1.6);
   }
 }
