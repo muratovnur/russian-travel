@@ -1,6 +1,5 @@
 .cover {
   position: relative;
-  min-width: 1024px;
   width: 100%;
   min-height: 640px;
   height: calc(100vw/1.6);
@@ -32,10 +31,8 @@
 @media screen and (min-width: 1280px) {
   .cover {
     min-width: 1184px;
-    max-width: calc(100% - 96px);
-    
+    max-width: calc(100% - 96px);  
     height: calc((100vw - 96px)/1.6);
-    
   }
 }
 @media screen and (max-width: 1024px) {
@@ -43,10 +40,4 @@
     min-width: 0;
     min-height: 0;
   }
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 425px) {
-
 }
