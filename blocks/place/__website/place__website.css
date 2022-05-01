@@ -18,14 +18,22 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
     min-width: 0;
-    width: calc((100% - 28px)/2 + 6px);
+    /* width: calc((100% - 28px)/2 + 6px); */
+    min-width: 300px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 599px) {
+  .place__website {
+    width: 100%;
+    
+  }
+}
+
+@media screen and (max-width: 424px) {
   .place__website {
     width: 100%;
     padding: 0 16px;

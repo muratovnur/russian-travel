@@ -6,18 +6,25 @@
   margin-bottom: 48px;
 }
 
-@media screen and (min-width: 1280px) {
-  
-}
-@media screen and (max-width: 1024px) {
-  
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 599px) {
   .place__container {
     flex-direction: column;
+    align-content: center;
+  }
+
+  .place__container:first-child {
+    margin-bottom: 0;
+  }
+
+  .place__container:nth-child(2) {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__container {
+    flex-direction: column;
+    align-items: center;
   }
 
   .place__container:first-child {

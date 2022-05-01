@@ -16,16 +16,26 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__image-wrapper {
     min-width: 0;
-    width: calc((100% - 28px)/2 - 6px);
+    /* width: calc((100% - 28px)/2 - 6px); */
+    min-width: calc(100% - 300px - 28px);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 599px) {
   .place__image-wrapper {
     width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__image-wrapper {
+    width: 100%;
+    margin: 0;
     margin-bottom: 32px;
   }
 }

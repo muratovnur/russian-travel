@@ -1,6 +1,6 @@
 .lead {
   box-sizing: border-box;
-  min-width: 928px;
+  
   width: 100%;
   padding: 48px 48px 0;
   display: flex;
@@ -10,21 +10,20 @@
 
 
 @media screen and (min-width: 1280px) {
-  /* стили для больших настольных компьютеров и ноутбуков */
   .lead {
     padding: 56px 148px 0;
-    min-width: 984px;
+    
   }
 }
 @media screen and (max-width: 1023px) {
   .lead {
     padding: 48px 0 0;
-    min-width: 425px;
+    
   }
 }
 
 @media screen and (max-width: 424px) {
   .lead {
-    min-width: 320px;
+    
   }
 }
